@@ -14,7 +14,7 @@ usb_hid.enable(
     )
 )
 
-# Use GP2 as the button pin (change as needed)
+# Use GP26 as the button pin (change as needed)
 button = digitalio.DigitalInOut(board.GP26)
 button.pull = digitalio.Pull.UP
 
